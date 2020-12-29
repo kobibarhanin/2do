@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "2do"
+version = "0.1.0"
+description = ""
+authors = ["kobibarhanin"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+termcolor = "*"
+pyinquirer = "*"
+inquirer = "*"
+emoji = "*"
+psutil = "*"
+click = "*"
+click-help-colors = "*"
+rich = "*"
+tinydb = "*"
+
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.6.0"
+pytest = "^6.1.1"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
